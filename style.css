@@ -1,0 +1,112 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.jumbotron{
+  background: url('images/header_image.jpeg')no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 855px;
+}
+#logo-name{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 150px;
+}
+span{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  color: #fff;
+}
+p{
+  text-align: center;
+  font-family: 'Georgia', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+.button{
+    font-size: 30px;
+}
+.fa-arrow-circle-down{
+color: black;
+}
+.fa-arrow-circle-down:hover{
+  color:#5e6468;
+}
+#navbar{
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+
+}
+/*****************
+ABOUT PAGE
+******************/
+
+.content-section-home{
+    padding: 50px 0;
+    background: url('images/about_image_3.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin-top: -30px; /* This will remove the gap between photos */
+    height: 855px;
+}
+.bg-overlay2 {
+  margin-top: -50px;
+  background: rgba(255, 255, 255, 0.5);
+  height: 855px;
+}
+
+
+.biography{
+  font-size: 17px;
+  text-align: left;
+  font-family: 'Georgia', sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.about-heading{
+padding-top: 50px;
+padding-bottom: 70px;
+font-size: 50px;
+font-family: 'Milonga', cursive;
+font-weight: bold;
+}
+.brian-image{
+  border: 8px solid #5e6468;;
+
+  width: 300px;
+  position: relative;
+  left: 400px;
+  margin: 10px;
+}
+.facts-about-me{
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+.facts{
+  font-size: 40px;
+  font-weight: bold;
+  color:#000;
+}
+/*****************
+PORTFOLIO PAGE
+******************/
+.content-section-portfolio{
+    padding: 50px 0;
+    background: url('images/mac-glasses.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin-top: -30px; /* This will remove the gap between photos */
+    height: 855px;
+}
+.bg-overlay3 {
+  margin-top: -50px;
+  background: rgba(0,0,0, 0.2);
+  height: 855px;
+}
+
