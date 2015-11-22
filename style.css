@@ -1,4 +1,4 @@
-html,body{
+html body{
   height: 100%;
   width: 100%;
 }
@@ -64,10 +64,12 @@ ABOUT PAGE
 
 .biography{
   font-size: 17px;
-  text-align: left;
+  text-align: center;
   font-family: 'Georgia', sans-serif;
   font-weight: bold;
   padding-top: 20px;
+  width: 900px;
+  padding-left: 250px;
 }
 
 .about-heading{
@@ -99,7 +101,7 @@ PORTFOLIO PAGE
 ******************/
 .content-section-portfolio{
     padding: 50px 0;
-    background: url('images/mac-glasses.jpeg') no-repeat center center fixed;
+    background: url('images/porfolio_image.jpg') no-repeat center center fixed;
     background-size: cover;
     margin-top: -30px; /* This will remove the gap between photos */
     height: 855px;
@@ -109,4 +111,91 @@ PORTFOLIO PAGE
   background: rgba(0,0,0, 0.2);
   height: 855px;
 }
+.portfolio-heading{
+padding-top: 50px;
+padding-bottom: 70px;
+font-size: 50px;
+font-family: 'Milonga', cursive;
+font-weight: bold;
+color: #fff;
+}
+.portfolio-button{
+    font-size: 30px;
 
+}
+.portfolio-button .fa-arrow-circle-down{
+color: #fff;
+}
+.fa-arrow-circle-down:hover{
+  color:#5e6468;
+}
+
+/***
+the different columns for my portfolios
+
+**/
+.column-text{
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  padding-top: 9px;
+  background:#5e6468;
+}
+.column-background-1{
+  background: url("images/innovation-cloud.png") no-repeat center center;
+    background-size: cover;
+    width: 205px;
+    height: 100px;
+
+}
+
+
+/*****************
+CONTACT PAGE
+******************/
+.content-section-contact{
+    padding: 50px 0;
+    background: url('images/contact-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin-top: -30px; /* This will remove the gap between photos */
+    height: 855px;
+}
+.bg-overlay4 {
+  margin-top: -50px;
+  background: rgba(255,255,255, 0.3);
+  height: 855px;
+}
+
+.contact-text{
+  font-size: 17px;
+  text-align: center;
+  font-family: 'Georgia', sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+  width: 900px;
+  padding-left: 250px;
+}
+.contact-info{
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  list-style: none;
+  text-align: left;
+  font-family: 'Georgia', sans-serif;
+  font-weight: bold;
+  padding-left: 480px;
+  padding-top: 30px;
+  clear: both;
+}
+li a{
+  padding-left: 10px;
+  text-decoration: none;
+  display: inline;
+  color: black;
+}
+a:hover{
+  color: #5e6468;
+}
+ul{
+  text-decoration: none;
+}
